@@ -9,6 +9,11 @@ public class Aluno
       this.ID = ID;
    }
    
+   public Aluno(){
+      this.nome = "";
+      this.ID = -1;
+   }
+
    public String getNome()
    {
       return this.nome;
