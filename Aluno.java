@@ -23,4 +23,8 @@ public class Aluno
    {
       this.nome = nome;
    }
+   
+   public void setID(int ID){
+this.ID = ID;
+}
 }
